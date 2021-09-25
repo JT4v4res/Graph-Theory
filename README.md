@@ -16,6 +16,36 @@ code and .cpp in the name directory located in the algs directory.
 
 ### Prim Algorithm
 
+To run this algorithm first compile the ford-fulkerson.cpp file
+
+``` 
+g++ -o prim prim.cpp
+```
+
+Then run the command
+
+```
+./prim < in
+```
+
+Here is a demonstration of the result of running this algorithm:
+
+![](https://github.com/JT4v4res/Graph-Theory/blob/527e5f22d1ae79974ed13718bc1da515c6bc7aab/imgs/prim.png)
+
+This was the input used for testing:
+
+```
+6 8
+1 2 5
+1 3 4
+1 4 2
+1 6 6
+2 4 1
+2 5 7
+3 5 6
+4 6 1
+```
+
 ### Ford-Fulkerson Algorithm
 
 To run this algorithm first compile the ford-fulkerson.cpp file
@@ -27,7 +57,7 @@ g++ -o ford-fulkerson ford-fulkerson.cpp
 Then run the command
 
 ```
-./ford-fulkerson (arquivo de entrada)
+./ford-fulkerson < in
 ```
 
 Here is a demonstration of the result of running this algorithm:
