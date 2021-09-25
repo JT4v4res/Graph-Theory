@@ -119,3 +119,8 @@ This was the input used for testing:
 6 4 6
 7 4 8
 ```
+
+See you next time!
+<br><br>
+
+![](https://media.giphy.com/media/d1xWB9Oy1ebPq/giphy.gif?cid=790b76111ce5b954ac61502acc9c76ed7551d126e0a61ebb&rid=giphy.gif&ct=g)
