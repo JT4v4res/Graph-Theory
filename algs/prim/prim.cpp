@@ -58,11 +58,11 @@ int Prim(){
         grafo[v].push_back({peso, u});
     }
 
-    cout << "O total é " << primAlgorithm() << "\n";
+    cout << "total:" << primAlgorithm() << "\n";
     return 0;
 }
 
 //MAIN
-int main(int argc, char const *argv[]){
+int main(int argc, char const **argv){
     Prim();
 }
