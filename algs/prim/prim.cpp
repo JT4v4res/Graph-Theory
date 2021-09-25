@@ -58,7 +58,7 @@ int Prim(){
         grafo[v].push_back({peso, u});
     }
 
-    cout << "total:" << primAlgorithm() << "\n";
+    cout << "total: " << primAlgorithm() << "\n";
     return 0;
 }
 
