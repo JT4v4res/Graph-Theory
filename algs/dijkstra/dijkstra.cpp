@@ -25,8 +25,8 @@ int shortest_path(int &n, vector<vector<pair<int,int>>> &a_list, vector<int> &di
                 int edge = next.second;
 
                 if (distance[edge] > distance[vertice] + weight){
-                     distance[edge] = distance[vertice] + weight;
-                     queue.push({distance[edge], edge});
+                    distance[edge] = distance[vertice] + weight;
+                    queue.push({distance[edge], edge});
                 }
             }
         }
@@ -34,7 +34,7 @@ int shortest_path(int &n, vector<vector<pair<int,int>>> &a_list, vector<int> &di
     return distance[destiny];
 }
 
-void add_egde(vector<vector<pair<int,int>>> &a_list, int edge, int vertice, int weight){
+void add_edge(vector<vector<pair<int,int>>> &a_list, int edge, int vertice, int weight){
     a_list[edge].push_back({weight, vertice});
     a_list[vertice].push_back({weight, edge});
 }
@@ -49,7 +49,7 @@ void mount_graph(int &n, int &x, vector<vector<pair<int,int>>> &a_list, vector<i
     for (int i = 0; i < x; i++){
         int u, v, w;
         cin >> u >> v >> w;
-        add_egde(a_list, u, v, w);
+        add_edge(a_list, u, v, w);
     }
 }
 

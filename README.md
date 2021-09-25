@@ -69,15 +69,18 @@ Here is a demonstration of the result of running this algorithm:
 This was the input used for testing:
 
 ```
-6 8
-1 2 5
-1 3 4
-1 4 2
-1 6 6
-2 4 1
-2 5 7
-3 5 6
-4 6 1
+7 10
+0 1 5
+2 0 32
+0 3 3
+1 2 4
+1 5 20
+5 2 1
+5 3 9
+5 4 6
+2 6 18
+4 6 2
+0 6
 ```
 
 ### Kruskal Algorithm
@@ -113,6 +116,6 @@ This was the input used for testing:
 ```
 
 See you next time!
-<br><br>
+<br>
 
 ![](https://media.giphy.com/media/d1xWB9Oy1ebPq/giphy.gif?cid=790b76111ce5b954ac61502acc9c76ed7551d126e0a61ebb&rid=giphy.gif&ct=g)
