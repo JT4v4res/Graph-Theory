@@ -148,16 +148,16 @@ int main(int argc, char **argv){
     }
 
     int verticeOrigem, verticeDestino;
-    cout << "Vertices disponiveis:" << endl;
+    cout << "Available Vertices:" << endl;
 
     for(int item : vertices)
         cout << item << " ";
 
-    cout << endl << "Insira o vertice de origem: ";
+    cout << endl << "Enter the source vertice: ";
     cin >> verticeOrigem;
-    cout << "Insira o vertice de destino: ";
+    cout << "Enter the destiny vertice: ";
     cin >> verticeDestino;
-    cout << endl << "O fluxo máximo possivel é " << fordFulkerson(G, verticeOrigem, verticeDestino) << endl;
+    cout << endl << "The maximum possible flow is " << fordFulkerson(G, verticeOrigem, verticeDestino) << endl;
 
     return 0;
 }
